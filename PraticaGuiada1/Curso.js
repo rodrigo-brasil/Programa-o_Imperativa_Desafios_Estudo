@@ -13,7 +13,7 @@ const curso = {
     max_faltas: 2,
     estudantes: [],
     //Passo 4 método para adicionar alunos na lista estudantes
-    addAluno: function (...aluno) {this.estudantes.push(...aluno.flat(Infinity)) },
+    addAluno: function (...aluno) {this.estudantes.push(...aluno.flat()) },
     //Passo 5 método para saber se aluno está aprovado
     estaAprovado: function (aluno) {
         let result = (aluno.calcularMedia() >= this.nota_aprovacao && aluno.qtd_faltas < this.max_faltas) ? true : (aluno.qtd_faltas == this.max_faltas && aluno.calcularMedia() > this.nota_aprovacao * 1.1) ? true : false;
