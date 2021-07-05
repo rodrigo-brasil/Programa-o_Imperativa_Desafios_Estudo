@@ -26,30 +26,3 @@ module.exports ={
     alunos,
     listaAlunos
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* exports.curso = function (nome_curso, nota_aprovacao, max_faltas, estudantes) {
-    const arrayEstudantes = estudantes;
-    this.nome_curso = nome_curso;
-    this.nota_aprovacao = nota_aprovacao;
-    this.max_faltas = max_faltas;
-    this.estudantes = arrayEstudantes.toString();
-    this.addAluno = (aluno) => this.estudantes.push(aluno);
-    this.estaAprovado = (aluno) => { (aluno.calcularMedia() >= this.nota_aprovacao && aluno.qtd_faltas < this.max_faltas) ? true : false }
-}
- */
