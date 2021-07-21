@@ -21,8 +21,4 @@ const aluno5 = new alunos("Felipe", 2, [10, 9, 3]);
 
 //
 const listaAlunos = [aluno1, aluno2,aluno3, aluno4,aluno5]
-
-module.exports ={
-    alunos,
-    listaAlunos
-}
+module.exports={listaAlunos, alunos}
